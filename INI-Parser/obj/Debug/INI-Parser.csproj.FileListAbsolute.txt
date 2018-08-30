@@ -1,0 +1,6 @@
+C:\Users\jrice\Source\Repos\INI-Parser\INI-Parser\bin\Debug\INI-Parser.dll
+C:\Users\jrice\Source\Repos\INI-Parser\INI-Parser\bin\Debug\INI-Parser.pdb
+C:\Users\jrice\Source\Repos\INI-Parser\INI-Parser\obj\Debug\INI-Parser.csprojAssemblyReference.cache
+C:\Users\jrice\Source\Repos\INI-Parser\INI-Parser\obj\Debug\INI-Parser.csproj.CoreCompileInputs.cache
+C:\Users\jrice\Source\Repos\INI-Parser\INI-Parser\obj\Debug\INI-Parser.dll
+C:\Users\jrice\Source\Repos\INI-Parser\INI-Parser\obj\Debug\INI-Parser.pdb
