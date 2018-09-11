@@ -42,6 +42,7 @@ namespace System
 				}
 			}
 		}
+
 		public static string Load(string INIAttribute, string INICategory = "[DEFAULT]", string INIFileLocation = "config.ini")
 		{
 			string CategoryLine;
@@ -62,7 +63,7 @@ namespace System
 							if (AttributeLine.Contains('[') | AttributeLine == null)
 								break;
 							attribute = AttributeLine.Split('=')[0];
-							value = AttributeLine.Split('=')[1];
+							value = AttributeLine.Substring(AttributeLine.IndexOf('=') + 1);
 							if (attribute == INIAttribute)
 								return value;
 						}
