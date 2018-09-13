@@ -65,7 +65,10 @@ namespace System
 							attribute = AttributeLine.Split('=')[0];
 							value = AttributeLine.Substring(AttributeLine.IndexOf('=') + 1);
 							if (attribute == INIAttribute)
-								return value;
+								if (value.StartsWith("\"") | value.EndsWith("\""))
+									return value.Trim('"');
+								else
+									return value;
 						}
 					}
 				}
